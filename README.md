@@ -11,12 +11,18 @@ Write an Array ADT that is based on a dynamic array. Use the following class def
 Array UML
 
 Array
+
           typename T:
+          
 private:
+
 - m_array: T *
 - m_start_index: int
 - m_length: int
+
+
 public:
+
 + Array()
 + Array(in length:int, in start_index:int=0)
 + Array(in copy:const Array<T> &)
